@@ -13,7 +13,9 @@ except ImportError:
 # === CONFIGURATION ===
 BOT_TOKEN = "8906362556:AAGP_-luoAqvdk1kyXmEc8N2LaCG0gWmrYU"
 GROUP_ID = -1004318849969
-API_URL = "https://www.ksiiprn.com/api/v1/iprn"
+API_URL = "curl -X GET "https://www.ksiiprn.com/api/v1/iprn/messages?start_date=2025-01-15&type=a2p&per_page=50" \
+  -H "Authorization: Bearer sk_live_teW28ldsvOSLWNWy3NBrHnvRVUH6jAdHUYOdEA62" \
+  -H "Accept: application/json""
 POLL_INTERVAL = 10  # Seconds between API checks
 
 # Emojis for services
