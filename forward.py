@@ -13,7 +13,7 @@ except ImportError:
 # === CONFIGURATION ===
 BOT_TOKEN = "8906362556:AAGP_-luoAqvdk1kyXmEc8N2LaCG0gWmrYU"
 GROUP_ID = -1004318849969
-API_URL = "https://numberpanel.tech/api/otp?count=200"
+API_URL = "https://www.ksiiprn.com/api/v1/iprn"
 POLL_INTERVAL = 10  # Seconds between API checks
 
 # Emojis for services
