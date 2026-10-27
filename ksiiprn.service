@@ -1,0 +1,13 @@
+[Unit]
+Description=KSIIPRN Forward Bot
+After=network.target
+
+[Service]
+WorkingDirectory=/opt/ksiiprn
+EnvironmentFile=/opt/ksiiprn/.env
+ExecStart=/usr/bin/python3 /opt/ksiiprn/forward.py
+Restart=always
+RestartSec=5
+
+[Install]
+WantedBy=multi-user.target
